@@ -11,23 +11,25 @@
 </head>
 
 <div>
-    <div id="title"> Local Windgrams for BC</div>
-    <input id="submit" class="btn btn-default" type="button" value="Refresh" onclick="init()" />
- 
-    <div>
-     <img id="wframe_0" src="http://canadarasp.com/windgrams-data/oneDay/2020-01-01/hrdpswindgram0.png" ></img>
-    </div>
-    <div>
-     <img id="wframe_1" src="http://canadarasp.com/windgrams-data/oneDay/2020-01-01/hrdpswindgram0.png" ></img>
-    </div>
-    <div>
-     <img id="wframe_2" src="http://canadarasp.com/windgrams-data/oneDay/2020-01-01/hrdpswindgram0.png" ></img>
-    </div>
-    <div>
-     <img id="wframe_3" src="http://canadarasp.com/windgrams-data/oneDay/2020-01-01/hrdpswindgram0.png" ></img>
-    </div>
-    </div>
- <body onload="init();">
+        <div id="title"> Local Windgrams for BC</div>
+        <input id="submit" class="button" type="button" value="Yesterday" onclick="init(-1)" />
+        <input id="submit" class="button" type="button" value="Today" onclick="init(0)" />
+        <input id="submit" class="button" type="button" value="Tomorrow" onclick="init(1)" />
+     
+        <div class="imageDiv">
+         <img id="wframe_0" src="" ></img>
+        </div>
+        <div class="imageDiv">
+         <img id="wframe_1" src="" ></img>
+        </div>
+        <div class="imageDiv">
+         <img id="wframe_2" src="" ></img>
+        </div>
+        <div class="imageDiv">
+         <img id="wframe_3" src="" ></img>
+        </div>
+        </div>
+     <body onload="init(0);">
 
 </html>
                 
