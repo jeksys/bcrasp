@@ -6,19 +6,21 @@
 <meta http-equiv="KEYWORDS" content="RASP, hrdps,canadarasp, forecast, soaring, predictions, northwest,BC,weather,wind,speed,paragliding,launch,paraglide,paraglider,hang,fly,kite,surf,windsurf,olney,TJ,windgram,windgrams">
 <meta name="description" content="Windgram diagrams for soaring forecasts for paragliders, hang gliders and sailplanes by Peter Spear and Andrew Berkley using CMC HRDPS Continental model data">
 <meta http-equiv="Content-Type" content="text/html;charset=US-ASCII" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script type="text/javascript" src="service.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <div>
-        <div id="title"> Local Windgrams for BC</div>
-        <input id="submit" class="button" type="button" value="Yesterday" onclick="init(-1)" />
-        <input id="submit" class="button" type="button" value="Today" onclick="init(0)" />
-        <input id="submit" class="button" type="button" value="Tomorrow" onclick="init(1)" />
-
-        <div class="imageDiv"><small><a href="http://canadarasp.com/aboutcanadarasp.html">Canada RASP</a> by <a href="mailto:ajberkley@gmail.com">Andrew Berkley</a> & Peter Spear</small><br></div>
-
+    <div id="title" class="titleH1 imageDiv"> Local Windgrams for BC</div>
+     
+     <div class="btn_container">
+            <div><button class="button" onclick="init(-1)">Yesterday</button></div>
+            <div><button class="button" onclick="init(0)">Today</button></div>
+            <div><button class="button" onclick="init(1)">Tomorrow</button></div>
+     </div>
+     
         <div class="imageDiv">
          <img id="wframe_0" src="" ></img>
         </div>
