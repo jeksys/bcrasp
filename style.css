@@ -3,6 +3,10 @@
     padding-top: 20px;
    }
    
+input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
    .button {
      background-color: #4CAF50; /* Green */
      border: none;
