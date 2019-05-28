@@ -2,10 +2,18 @@ img {
 	display: block;
 }
 
-.titleH1 {
-	font-size: 3em;
+.textH1 {
+	font-size: 2em;
 	padding-bottom: 10px;
 }
+
+.center {
+	text-align: center;
+  }
+
+  .left {
+	text-align: left;
+  }
 
 .button {
 	background-color: #4CAF50;
@@ -14,10 +22,12 @@ img {
 	color: white;
 	padding: 10px 20px 10px 20px;
 	display: inline-block;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .btn_container {
+	padding-bottom: 20px;
+	margin: auto;
 	display: flex;
 	max-width: 600px;
 	justify-content: space-around;
@@ -56,7 +66,7 @@ textarea {
 	.btn_container {
 		max-width: 100%;
 	}
-	.titleH1 {
+	.textH1 {
 		font-size: 1.5em;
 	}
 	.txt_container {
