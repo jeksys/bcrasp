@@ -2,10 +2,14 @@
 
 
 ### TODO
-[ ] add Savona RASP
-[ ] add Hedly RASP
-[ ] add Lubmy RASP
-[ ] add web cams for all locations
+- [ ] add Savona RASP
+
+- [ ] add Hedly RASP
+
+- [ ] add Lubmy RASP
+
+- [ ] add web cams for all locations
+
 https://images.drivebc.ca/bchighwaycam/pub/html/www/324.html
 https://images.drivebc.ca/bchighwaycam/pub/html/www/330.html
 https://images.drivebc.ca/bchighwaycam/pub/html/www/240.html
