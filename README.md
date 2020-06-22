@@ -1,5 +1,8 @@
 # bcrasp
 
+### how to push to heroku
+
+
 
 ### TODO
 - [ ] add Savona RASP
