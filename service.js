@@ -1,28 +1,51 @@
 function init(nextDay) {
   
-    //woodside
-    document.getElementById("wframe_0").src = getURL(15, nextDay);
-    
-    //bridal
-    document.getElementById("wframe_1").src = getURL(1, nextDay);
+  let sites = [
+  {
+    name: "woodside",
+    frame: "wframe_0",
+    code: 0
+  },
+  {
+    name: "bridal",
+    frame: "wframe_1",
+    code: 1
+  },
+  {
+    name: "benny",
+    frame: "wframe_2",
+    code: 5
+  },
+  {
+    name: "Little Nic",
+    frame: "wframe_3",
+    code: 131
+  },
+  {
+    name: "Pemby",
+    frame: "wframe_4",
+    code: 15
+  },
+      {
+    name: "Oscar, Savona",
+    frame: "wframe_6",
+    code: 47
+  },
+  {
+    name: "Hedley",
+    frame: "wframe_7",
+    code: 40
+  },
+  {
+    name: "Hedley",
+    frame: "wframe_8",
+    code: 29
+  }
+];
   
-    //benny
-    document.getElementById("wframe_2").src = getURL(5, nextDay);
-
-    //Little Nic
-    document.getElementById("wframe_3").src = getURL(131, nextDay);
-
-    //pemby
-    document.getElementById("wframe_4").src = getURL(15, nextDay);
-
-    //Oscar, Savona
-    document.getElementById("wframe_6").src = getURL(47, nextDay);
-
-    //Hedly
-    document.getElementById("wframe_7").src = getURL(40, nextDay);
-
-    //Lumby
-    document.getElementById("wframe_8").src = getURL(29, nextDay);
+  for (i = 0; i < sites.length; i++) {
+  document.getElementById(sites[i].frame).src = getURL(sites[i].code, nextDay);
+}
 
   }
   
