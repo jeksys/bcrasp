@@ -9,25 +9,20 @@ function init(nextDay) {
     //benny
     document.getElementById("wframe_2").src = getURL(5, nextDay);
 
-    var site_0 = document.getElementById("wframe_3");
     //Little Nic
-    site_0.src = getURL(131, nextDay);
+    document.getElementById("wframe_3").src = getURL(131, nextDay);
 
-    var site_0 = document.getElementById("wframe_4");
     //pemby
-    site_0.src = getURL(15, nextDay);
+    document.getElementById("wframe_4").src = getURL(15, nextDay);
 
-    var site_0 = document.getElementById("wframe_6");
     //Oscar, Savona
-    site_0.src = getURL(47, nextDay);
+    document.getElementById("wframe_6").src = getURL(47, nextDay);
 
-    var site_0 = document.getElementById("wframe_7");
     //Hedly
-    site_0.src = getURL(40, nextDay);
+    document.getElementById("wframe_7").src = getURL(40, nextDay);
 
-    var site_0 = document.getElementById("wframe_8");
     //Lumby
-    site_0.src = getURL(29, nextDay);
+    document.getElementById("wframe_8").src = getURL(29, nextDay);
 
   }
   
