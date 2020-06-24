@@ -43,18 +43,8 @@ function init(nextDay) {
   }
 ];
   
-  var sites_container = document.getElementById("sites_container");
-  var site_info = document.getElementById("site_info");
-  
-  
-  if (sites_container.hasChildNodes()) {
-    sites_container.removeChild(sites_container.childNodes[0]);
-  }
-  
   for (i = 0; i < sites.length; i++) {
     document.getElementById(sites[i].frame).src = getURL(sites[i].code, nextDay);
-    var new_site_info = site_info.cloneNode(true);
-    sites_container.appendChild(new_site_info);
     console.log("added site:"+sites[i].name+"-"+sites[i].code);
   }
 
