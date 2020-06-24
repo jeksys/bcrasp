@@ -1,16 +1,13 @@
 function init(nextDay) {
   
-    var site_0 = document.getElementById("wframe_0");
     //woodside
-    site_0.src = getURL(0, nextDay);
+    document.getElementById("wframe_0").src = getURL(0, nextDay);
     
-    var site_0 = document.getElementById("wframe_1");
     //bridal
-    site_0.src = getURL(1, nextDay);
+    document.getElementById("wframe_1").src = getURL(1, nextDay);
   
-    var site_0 = document.getElementById("wframe_2");
     //benny
-    site_0.src = getURL(5, nextDay);
+    document.getElementById("wframe_2").src = getURL(5, nextDay);
 
     var site_0 = document.getElementById("wframe_3");
     //Little Nic
