@@ -1,7 +1,7 @@
 function init(nextDay) {
   
     //woodside
-    document.getElementById("wframe_0").src = getURL(0, nextDay);
+    document.getElementById("wframe_0").src = getURL(15, nextDay);
     
     //bridal
     document.getElementById("wframe_1").src = getURL(1, nextDay);
