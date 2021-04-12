@@ -26,3 +26,5 @@ https://pilotsloft.ca/web-cam/
 https://www.ipcamlive.com/5aa738d0099b0
 
 http://www.iparaglide.com/
+
+https://weather.martinzak.me/
