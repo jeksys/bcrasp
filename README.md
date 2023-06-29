@@ -1,15 +1,10 @@
 # bcrasp
 
-### how to push to heroku
-
-
 
 ### TODO
-- [ ] add Savona RASP
+- [x] add Lubmy RASP
 
-- [ ] add Hedly RASP
-
-- [ ] add Lubmy RASP
+- [x] add Grouse RASP
 
 - [ ] add web cams for all locations
 
