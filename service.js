@@ -45,6 +45,11 @@ function init(nextDay) {
     name: "grouse",
     frame: "wframe_9",
     code: 8
+  },
+  {
+    name: "King Eddy",
+    frame: "wframe_10",
+    code: 30
   }
 ];
   
