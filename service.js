@@ -50,6 +50,11 @@ function init(nextDay) {
     name: "King Eddy",
     frame: "wframe_10",
     code: 30
+  },
+  {
+    name: "Golden",
+    frame: "wframe_11",
+    code: 64
   }
 ];
   
